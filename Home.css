@@ -1,0 +1,46 @@
+#heading {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  align-items: center;
+  border: 1px black;
+}
+
+.headingtext {
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  text-align: center;
+  width: 1850px;
+  height: 159px;
+  color: black;
+  margin: 5px;
+  padding: 25px;
+  font-size: 95px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 135px;
+}
+
+.container {
+  display: flex;
+  width: 3000px;
+  flex-wrap: wrap;
+}
+.split {
+  flex-basis: 30%;
+  flex-direction: row;
+  padding: 1%;
+}
+
+img {
+  display: flex;
+  width: 450px;
+  justify-content: center;
+}

@@ -1,0 +1,45 @@
+#heading {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 103, 103);
+  align-items: center;
+}
+
+.headingtext {
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  text-align: center;
+  width: 1850px;
+  height: 159px;
+  color: black;
+  margin: 5px;
+  padding: 25px;
+  font-size: 95px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+}
+
+.container {
+  display: flex;
+  width: 1920px;
+  flex-wrap: wrap;
+}
+
+.split {
+  flex-basis: 48%;
+  flex-direction: row;
+  padding: 1%;
+}
+
+img {
+  width: auto;
+  height: 400px;
+}
